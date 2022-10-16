@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume of Abani</title>
+    <link rel="icon" href="https://i.ibb.co/8DFFB6H/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 300px 700px;
+            min-height: 1000px;
+            width: 90%;
+            justify-content: center;
+            margin: 20px auto;
+        }
+
+        section {
+            display: block;
+        }
+
+        .left-section {
+            grid-column: span 1;
+            background-color: antiquewhite;
+            border: 2px solid darkblue;
+        }
+
+        .right-section {
+            grid-column: span 1/span 2;
+            background-color: aqua;
+            border: 2px solid darkblue;
+        }
+
+        .left-content {
+            padding: 1rem;
+        }
+
+        .profile-image {
+            display: block;
+            margin: auto;
+            border: 5px solid white;
+            border-radius: 30%;
+            width: 60%;
+            text-align: center;
+        }
+
+        .name {
+            font-size: 1rem;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.02px;
+            padding: 0.8rem;
+        }
+
+        .designation {
+            font-size: 1rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 0.5rem;
+        }
+
+        .description {
+            font-size: 0.75rem;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .icon {
+            font-size: 2rem;
+            list-style: none;
+            text-align: center;
+        }
+
+        li{
+            display: inline-block;
+            padding-left: 1rem;
+        }
+
+        .fa {
+            color: darkblue;
+        }
+
+        .fa:hover {
+            color: darkgoldenrod;
+        }
+
+
+        .skills {
+            font-size: 0.75rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+
+        .skill-name {
+            font-size: 0.65rem;
+            font-weight: 0.65rem;
+            text-align: left;
+            padding-bottom: 0.5rem;
+        }
+
+        .progress-bar {
+            border: 1px solid white;
+            height: 4px;
+            margin-bottom: 2rem;
+        }
+
+        .right-main-content {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+
+        .right-title {
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 0.5rem;
+            letter-spacing: 1px;
+            text-decoration: underline;
+            color: blueviolet;
+        }
+
+        p{
+            color: brown;
+            font-size: 1rem;
+            padding: 0.5rem;
+            letter-spacing: 0.5px;
+        }
+
+        @media screen and (max-width:673px)
+        {
+            .main-content{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="main-content">
+        <section class="left-section">
+            <div class="left-content">
+                <div class="profile-details">
+                    <div class="profile-image"><img src="https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_1280.png" alt="profile-image" width="145" height="175"></div>
+                    <div class="name">Abani Kanta Mahapatra</div>
+                    <div class="designation">Software Engineer</div>
+                    <div class="description">Full Stack Web Developer</div>
+                    <div class="contact-item">
+                            <ul class="icon">
+                                <li><a href="https://github.com/Abanim2" target="_blank"><i class="fa fa-github"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/abani-kanta-mahapatra-92142614a" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li><i class="fa fa-mobile"></i></li>
+                                <li><a href="https://github.com/Abanim2" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                                <li><i class="fa fa-map-marker"></i></li>
+                            </ul>
+                    </div>
+                    <hr>
+                    <hr>
+                    <br><br>
+                    <div>
+                        <h2 class="skills">Skills</h2>
+                        <div>
+                            <div>
+                                <h2 class="skill-name">JAVA</h2>
+                            </div>
+                            <div class="progress-bar" style="width: 90%; background-color: blueviolet;"></div>
+                            <div>
+                                <h2 class="skill-name">DSA</h2>
+                            </div>
+                            <div class="progress-bar" style="width: 80%; background-color: blueviolet;"></div>
+                            <div>
+                                <h2 class="skill-name">HTML</h2>
+                            </div>
+                            <div class="progress-bar" style="width: 95%; background-color: blueviolet;"></div>
+                            <div>
+                                <h2 class="skill-name">CSS</h2>
+                            </div>
+                            <div class="progress-bar" style="width: 90%; background-color: blueviolet;"></div>
+                            <div>
+                                <h2 class="skill-name">JAVASCRIPT</h2>
+                            </div>
+                            <div class="progress-bar" style="width: 70%; background-color: blueviolet;"></div>
+                            <div>
+                                <h2 class="skill-name">REACT</h2>
+                            </div>
+                            <div class="progress-bar" style="width: 50%; background-color: blueviolet;"></div>
+                            <div>
+                                <h2 class="skill-name">NODE</h2>
+                            </div>
+                            <div class="progress-bar" style="width: 50%; background-color: blueviolet;"></div>
+                            <div>
+                                <h2 class="skill-name">SQL</h2>
+                            </div>
+                            <div class="progress-bar" style="width: 75%; background-color: blueviolet;"></div>
+                            <div>
+                                <h2 class="skill-name">EXCEL</h2>
+                            </div>
+                            <div class="progress-bar" style="width: 80%; background-color: blueviolet;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="right-section">
+            <div class="right-main-content">
+                <h4 class="right-title">About me</h4>
+                <p>I have always been passionate about solving challenging real-world problems using the best software technology available. I love exploring various aspects of Leadership, learning, and exploring new technologies. As a dedicated, hard working team player with strong analytical skills, my vision and career aspirations are focused on leading teams to create valuable products that help people get better at life through technology. So that i am looking for a challenging and interesting learning experience in an organization where i can also
+                    contribute my knowledge and skill-sets and achieve organizational goals and expectations in the best possible manner.
+                </p>
+                <h4 class="right-title">Education</h4>
+                <p>
+                    Master in Computer Science, <em>MIA University</em><br><br>
+                    Full Stack Web Development, <em>Newton School</em><br><br>
+                    Bachelor of Technology in Electrical Engineering, <em>C.V. Raman College of Engineering</em><br><br>
+                    Intermediate, <em>Ispat Vidya Mandir</em><br><br>
+                    Matriculate, <em>Pragati Vidya Mandir</em>
+                </p>
+                <h4 class="right-title">Experience</h4>
+                <p>
+                    Support Engineer, AXBY(April, 2021 - February, 2022) <br><br>
+                    Commissioning Engineer, BHEL(February, 2019 - March, 2021)
+                </p>
+                <h4 class="right-title">Achievements</h4>
+                <p>
+                    2nd position in Circuitrix during College Festival of CV Raman (2017)<br><br>
+                    2nd position in quiz competition organised by RSP, SAIL (2012)<br><br>
+                    3rd position in Tourism quiz competition organised by Govt. of Odisha on world tourism day(2012) <br><br>
+                    3rd position in Essay competition organised by Govt. of Odisha on Independence Day(2012) <br><br>
+                    1st position in Essay competition organised by Bharatiya Vidya Bhavan(2012)
+                </p>
+                <h4 class="right-title">Hobbies</h4>
+                <p>
+                    Quizz <br><br> Cooking <br><br> Travelling <br><br> Cricket
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
